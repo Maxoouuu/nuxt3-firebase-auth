@@ -5,7 +5,7 @@
     >
       <div class="has-text-centered mt-6">
         <p class="title">Firebase/Nuxt3 Auth</p>
-        <p class="subtitle">https://nuxt3-firebase-razorcx.netlify.app/</p>
+        <p class="subtitle">Firebase Auth with Nuxt3</p>
       </div>
 
       <div class="section">
