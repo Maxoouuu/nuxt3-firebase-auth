@@ -22,6 +22,3 @@ const signOut = async () => {
 };
 
 </script>
-
-<style>
-</style>

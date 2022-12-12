@@ -11,5 +11,3 @@ definePageMeta({
 
 const firebaseUser = useFirebaseUser();
 </script>
-
-<style></style>
