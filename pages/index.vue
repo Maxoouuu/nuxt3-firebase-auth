@@ -1,7 +1,9 @@
 <template>
   <div>
     <p><NuxtLink to="/secret">Go to Secret Page</NuxtLink></p>
-    <button class="button" @click="signOut" v-if="firebaseUser">Sign out</button>
+    <button class="button" @click="signOut" v-if="firebaseUser">
+      Sign out
+    </button>
     <div v-if="firebaseUser">
       <client-only>
         <pre
@@ -20,5 +22,4 @@ const firebaseUser = useFirebaseUser();
 const signOut = async () => {
   await signOutUser();
 };
-
 </script>
